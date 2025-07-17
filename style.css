@@ -1,0 +1,43 @@
+/* Make the page centered with a cute pink gradient */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  background: linear-gradient(to bottom right, #ffc0cb, #ff69b4);
+  font-family: sans-serif;
+}
+
+/* Cute big button */
+button {
+  font-size: 20px;
+  padding: 14px 24px;
+  background-color: #d94f94;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #b03060;
+}
+
+/* The grid container */
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 960px;
+  height: 960px;
+  border: 3px solid #333;
+  background-color: white;
+}
+
+/* Each square */
+.grid-square {
+  box-sizing: border-box;
+  border: 0.5px solid #eee;
+}
